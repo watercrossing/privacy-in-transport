@@ -1,0 +1,2480 @@
+<!DOCTYPE html>
+<html dir="ltr" class="en dir-ltr  no-js " lang="en"><head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Limesurvey - Privacy Risk Perceptions</title>
+<style>
+/*
+    LimeSurvey
+
+    Copyright (C) 2007-2017 The LimeSurvey Project Team / Louis Gac
+    All rights reserved.
+
+    License: GNU/GPL License v2 or later, see LICENSE.php
+    LimeSurvey is free software. This version may have been modified pursuant
+    to the GNU General Public License, and as distributed it includes or
+    is derivative of works licensed under the GNU General Public License or
+    other free or open source software licenses.
+    See COPYRIGHT.php for copyright notices and details.
+
+    (¯`·._.·(¯`·._.· Specific CSS for printing survey  ·._.·´¯)·._.·´¯)
+
+*/
+
+html,body {
+  margin: 0;
+  max-width: 100%;
+}
+html body{
+  text-align: left;
+  overflow: visible;
+  position: initial;
+  top: 0;
+  left: 0;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 12pt;
+  margin: 0;
+  padding:0;
+}
+h1,h2,h3,h4 {
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+* {
+  page-break-after: auto;
+}
+.container{
+  width:100%
+}
+
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid #ddd;
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+@page{
+  margin: 1cm 2cm 1cm 1cm;
+}
+.question-wrapper  {
+  border: 0.1em solid #aaa;
+  padding: 1em;
+  margin: 1em 0.5em;
+  clear: both;
+  page-break-inside: avoid;
+  page-break-before: auto;
+}
+.dir-ltr .question-code{margin-right:1em}
+.dir-rtl .question-code{margin-left:1em}
+.question-wrapper .h3{margin-top:0}
+.table-print-answers thead th{text-align:center;vertical-align:bottom}
+.table-print-answers tbody td{text-align:center;vertical-align:middle}
+
+ .input-radio, .input-checkbox{
+   display:inline-block;
+ }
+ .input-radio:before {
+   content: '';
+    display:inline-block;
+    width:1.4em;
+    height:1.4em;
+    border:1px solid #000;
+    border-radius:0.7em;
+    margin:0.1em;    
+    position: relative;
+    top:0.4em;
+  }
+  .input-checkbox:before {
+    content: '';
+    display:inline-block;
+    width:1.4em;
+    height:1.4em;
+    border:1px solid #000;
+    margin:0 0.1em;
+    position: relative;
+    top:0.4em;
+  }
+  .form-control.print-control{border:1px solid #000;margin:0.1em;max-width:100%}
+  .table{width:100%;table-layout:fixed}
+  .print-control.input-other,.print-control.input-othercomment,.print-control.input-rank{display:inline-block}
+</style>
+    </head>
+        <div id="limesurvey">
+            <h1>Privacy Risk Perceptions</h1>
+
+<p><span style="font-size:11pt;"><span style="font-family:'Helvetica Neue';"><span style="color:#000000;"><b>Privacy Risk Perceptions – Information for Participants</b></span></span></span></p>
+</div>
+
+            <div class="survey-welcome"><p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;"><span style="font-size:11pt;"><span style="font-family:'Helvetica Neue';"><span style="color:#000000;">This survey is part of a study being conducted at X. We are interested in <span style="color:#000000;" xml:lang="en-us" lang="en-us">exploring how risk perceptions and privacy perceptions interact.</span></span></span></span></p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;">&nbsp;</p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;"><span style="font-size:11pt;"><span style="font-family:'Helvetica Neue';"><span style="color:#000000;">In
+ this survey, we will ask questions based on how you use and perceive 
+the internet, and related privacy and security management activities. 
+You will first be asked questions that will help us understand <span style="color:#000000;" xml:lang="en-us" lang="en-us">your privacy concerns online. </span>We will then ask questions <span style="color:#000000;" xml:lang="en-us" lang="en-us">about your general risk perceptions and behaviours</span>.</span></span></span></p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;">&nbsp;</p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;"><span style="font-size:11pt;"><span style="font-family:'Helvetica Neue';"><span style="color:#000000;">Your
+ participation in this study is completely voluntary; choosing not to 
+take part will not disadvantage you in any way. If you do decide to take
+ part you are still free to withdraw at any time and without giving a 
+reason. You will receive full payment only upon completing the study. </span></span></span></p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;">&nbsp;</p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;"><span style="font-size:11pt;"><span style="font-family:'Helvetica Neue';"><span style="color:#000000;">The survey is anonymous and we will not collect any personal data from you.</span></span></span></p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;">&nbsp;</p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;"><span style="font-size:11pt;"><span style="font-family:'Helvetica Neue';"><span style="color:#000000;">The survey is expected to take approximately 17 minutes to complete. </span></span></span></p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;">&nbsp;</p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;"><span style="font-size:11pt;"><span style="font-family:'Helvetica Neue';"><span style="color:#000000;">The anonymous survey responses may be shared with other researchers and appear in academic publications.</span></span></span></p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;">&nbsp;</p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;"><span style="font-size:11pt;"><span style="font-family:'Helvetica Neue';"><span style="color:#000000;">You
+ may contact us if you have additional questions through prolific or at 
+xxx. If you want to raise a complaint, please contact yyy. If you feel your complaint has not 
+been handled to your satisfaction, you can contact the Chair of the 
+Research Ethics Committee under zzz. </span></span></span></p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;">&nbsp;</p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;"><span style="font-size:11pt;"><span style="font-family:'Helvetica Neue';"><span style="color:#000000;">This research project has been approved by the designated ethics officer at X.</span></span></span></p>
+
+<p class="Body" style="border:medium none;margin:0cm 0cm .0001pt;">&nbsp;</p>
+<span style="font-size:12pt;" xml:lang="en-us" lang="en-us"><span style="font-family:'Times New Roman', serif;">By
+ clicking on the box below you are confirming that you have read and 
+understood this information sheet and you certify you are over the age 
+of 18 and a UK resident.</span></span></div>
+
+            <p class="x-questions">There are 19 questions in this survey.</p>
+
+                                            <div class="survey-group ">
+    <h2>Prolific</h2>
+    <div class="group-desc">
+        
+    </div>
+                    <div id="question" class="text-short mandatory question-wrapper">
+    <div class="q-text">
+        <h3> Please enter your prolificID:
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please write your answer here:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        <div class="form-control print-control input-text" style="height:3em;" title="&lt;div class=&quot;tip-help&quot;&gt;Please write your answer here:&lt;/div&gt;"><span></span></div>
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+    </div>
+
+                                            <div class="survey-group ">
+    <h2>IUIPC</h2>
+    <div class="group-desc">
+        
+    </div>
+                    <div id="question" class="array-flexible-row mandatory question-wrapper">
+    <div class="q-text">
+        <h3> <p>Please indicate the extend to which you agree to the statements below.</p>
+
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:11%;">Strongly disagree</th>
+			<th style="width:11%;">Disagree</th>
+			<th style="width:11%;">Somewhat disagree</th>
+			<th style="width:11%;">Neither agree or disagree</th>
+			<th style="width:11%;">Somewhat agree</th>
+			<th style="width:11%;">Agree</th>
+			<th style="width:11%;">Strongly agree</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">It usually bothers me when online companies ask me for personal information. </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">When online companies ask me for personal information, I sometimes think twice before providing it. </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">It bothers me to give personal information to so many online companies. </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I am not concerned that online companies are collecting too much personal information about me. </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Consumer online privacy is really a matter of 
+consumers' right to exercise control and autonomy over decisions about 
+how their information is collected, used, and shared. </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Consumer control of personal information lies at the heart of consumer privacy. </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I believe that online privacy is invaded when control is lost or unwillingly reduced as a result of a marketing transaction. </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Companies seeking information online should disclose the way the data are collected, processed, and used. </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">A good consumer online privacy policy should have a clear and conspicuous disclosure. </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">It is very important to me that I am aware and knowledgeable about how my personal information will be used. </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">When online companies ask me for personal information, I provide it without thinking about it.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Being aware and knowledgeable about how my personal information is being used is not important to me.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Please select 'Somewhat disagree' for this line.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="array-flexible-row mandatory question-wrapper">
+    <div class="q-text">
+        <h3> <p>Consider the following scenario:</p>
+
+<p style="margin-left: 40px;"><em>"You are visiting a shop on the high 
+street. The shop offers a discount membership scheme. If you use a 
+social media app to let the world know that you visited this shop, you 
+receive the membership for half price."</em></p>
+
+<p>Given this hypothetical scenario, please indicate your response on the four attributes below.</p>
+
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:25%"><span></span></td>
+			<th style="width:7%;">&lt;&lt;&lt;</th>
+			<th style="width:7%;">&lt;&lt;</th>
+			<th style="width:7%;">&lt;</th>
+			<th style="width:7%;">|</th>
+			<th style="width:7%;">&gt;</th>
+			<th style="width:7%;">&gt;&gt;</th>
+			<th style="width:7%;">&gt;&gt;&gt;</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Unlikely </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Likely</th>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Not probable </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Probable</th>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Possible </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Impossible</th>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Willing </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Unwilling</th>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Trivial </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Serious</th>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="array-flexible-row mandatory question-wrapper">
+    <div class="q-text">
+        <h3> <p>Consider the following scenario:</p>
+
+<p style="margin-left: 40px;"><em>"</em><em>A sports tracking 
+application offers a premium program: if you let your location be 
+tracked by the app 24/7 you receive a discount of 50%."</em></p>
+
+<p>Given this hypothetical scenario, please indicate your response on the four attributes below.</p>
+
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:25%"><span></span></td>
+			<th style="width:7%;">&lt;&lt;&lt;</th>
+			<th style="width:7%;">&lt;&lt;</th>
+			<th style="width:7%;">&lt;</th>
+			<th style="width:7%;">|</th>
+			<th style="width:7%;">&gt;</th>
+			<th style="width:7%;">&gt;&gt;</th>
+			<th style="width:7%;">&gt;&gt;&gt;</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Unlikely </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Likely</th>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Not probable </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Probable</th>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Possible </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Impossible</th>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Willing </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Unwilling</th>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Trivial </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Serious</th>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="array-flexible-row mandatory question-wrapper">
+    <div class="q-text">
+        <h3> <p>Consider the following scenario:</p>
+
+<p style="margin-left: 40px;"><em>"A health insurance policy offers a 
+substantial reduction in premiums for members who jog/cycle to work and 
+drink less. In order to qualify, you are required to share your location
+ with the company between 7am-10pm."</em></p>
+
+<p>Given this hypothetical scenario, please indicate your response on the attributes below.</p>
+
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:25%"><span></span></td>
+			<th style="width:7%;">&lt;&lt;&lt;</th>
+			<th style="width:7%;">&lt;&lt;</th>
+			<th style="width:7%;">&lt;</th>
+			<th style="width:7%;">|</th>
+			<th style="width:7%;">&gt;</th>
+			<th style="width:7%;">&gt;&gt;</th>
+			<th style="width:7%;">&gt;&gt;&gt;</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Unlikely </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Likely</th>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Not probable </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Probable</th>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Possible </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Impossible</th>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Willing </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Unwilling</th>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Trivial </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Serious</th>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+    </div>
+
+                                            <div class="survey-group ">
+    <h2>EARP</h2>
+    <div class="group-desc">
+        
+    </div>
+                    <div id="question" class="array-flexible-row mandatory question-wrapper">
+    <div class="q-text">
+        <h3> <p>To what extent do you agree or disagree with each of the following statements?</p>
+
+<p>PII stands for Personal Identifying Information.</p>
+
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:11%;">Strongly disagree</th>
+			<th style="width:11%;">Disagree</th>
+			<th style="width:11%;">Somewhat disagree</th>
+			<th style="width:11%;">Neither agree or disagree</th>
+			<th style="width:11%;">Somewhat agree</th>
+			<th style="width:11%;">Agree</th>
+			<th style="width:11%;">Strongly agree</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">I mind when a Web site uses my PII to customize my browsing experience.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I am unconcerned when a Web site uses my PII to customize my browsing experience.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I mind when a Web site uses cookies to 
+customize my browsing experience. (A cookie is information that a Web 
+site stores on your computer so that it can remember something about you
+ at a later time).</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I mind when a Web site uses my purchasing 
+history to personalise my browsing experience (e.g. by suggesting 
+products for me to purchase).</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I mind when my PII is used for marketing or research activities.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I mind when a Web site monitors my purchasing patterns.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I am unconcerned when a Web site monitors my purchasing patterns.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I want the option to decide how my PII is used.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I want a Web site to disclose security safeguards used to protect my PII.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I want a Web site to disclose how my PII will be used.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I want a Web site to inform me before using my PII in a manner that it had not previously disclosed to me.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I want a Web site to keep me informed of changes to its privacy practices.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I mind when a Web site discloses my buying patterns to third parties.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I am unconcerned when a Web site discloses my buying patterns to third parties.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I mind when my information is shared with third parties.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I mind when my PII is traded with or sold to third parties.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I am unconcerned when my PII is traded with or sold to third parties.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I mind when a Web site that I visit collects (without my consent) information about my browsing patterns.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I am unconcerned when a Web site that I visit collects (without my consent) information about my browsing patterns.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I mind when a Web site that I visit collects (without my consent) information about my browser configuration.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I mind when a Web site that I visit collects 
+(without my consent) information about my IP address (a number that 
+uniquely identifies your computer from all other computers on the 
+Internet).</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I mind when a Web site that I visit collects (without my consent) information about the type of computer/Operating System I use.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I mind when a Web site records the previous Web site I visited.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I am concerned about unauthorized employees getting access to my information.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I am concerned about unauthorized hackers getting access to my information.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I am indifferent about unauthorized hackers getting access to my information.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I want a Web site to allow me to check my PII for accuracy.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I want a Web site to allow me to modify my PII.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I am paying attention and select 'Disagree' for this line.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+    </div>
+
+                                            <div class="survey-group ">
+    <h2>Risk Concerns</h2>
+    <div class="group-desc">
+        
+    </div>
+                    <div id="question" class="array-flexible-row mandatory question-wrapper">
+    <div class="q-text">
+        <h3> For each of the following statements, please indicate the 
+likelihood that you would engage in the described activity or behavior 
+if you were to find yourself in that situation.
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:11%;">Extremely Unlikely</th>
+			<th style="width:11%;">Moderately Unlikely</th>
+			<th style="width:11%;">Somewhat Unlikely</th>
+			<th style="width:11%;">Not Sure</th>
+			<th style="width:11%;">Somewhat Likely</th>
+			<th style="width:11%;">Moderately Likely</th>
+			<th style="width:11%;">Extremely Likely</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Admitting that your tastes are different from those of a friend.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Going camping in the wilderness.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Betting a day's income at the horse races.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Investing 10% of your annual income in a moderate growth mutual fund.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Drinking heavily at a social function.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Taking some questionable deductions on your income tax return.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Disagreeing with an authority figure on a major issue.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Betting a day's income at a high-stake poker game.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Having an affair with a married man/woman.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Passing off somebody else’s work as your own.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Going down a ski run that is beyond your ability.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Investing 5% of your annual income in a very speculative stock.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Going whitewater rafting at high water in the spring.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Betting a day’s income on the outcome of a sporting event.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Engaging in unprotected sex.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Revealing a friend’s secret to someone else.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Driving a car without wearing a seat belt.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Investing 10% of your annual income in a new business venture.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Taking a skydiving class.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Riding a motorcycle without a helmet.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Choosing a career that you truly enjoy over a more secure one.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Speaking your mind about an unpopular issue in a meeting at work.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Sunbathing without sunscreen.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Bungee jumping off a tall bridge.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Piloting a small plane.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Walking home alone at night in an unsafe area of town.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Moving to a city far away from your extended family.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Starting a new career in your mid-thirties.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Leaving your young children alone at home while running an errand.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Not returning a wallet you found that contains $200.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="array-flexible-row mandatory question-wrapper">
+    <div class="q-text">
+        <h3> People often see some risk in situations that contain 
+uncertainty about what the outcome or consequences will be and for which
+ there is the possibility of negative consequences. However, riskiness 
+is a very personal and intuitive notion, and we are interested in <strong>your gut level assessment of how risky</strong> each situation or behavior is. For each of the following statements, please indicate <strong>how risky you perceive</strong> each situation.
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:11%;">Not at all risky</th>
+			<th style="width:11%;">Slightly risky</th>
+			<th style="width:11%;">Somewhat risky</th>
+			<th style="width:11%;">Moderately risky</th>
+			<th style="width:11%;">Risky</th>
+			<th style="width:11%;">Very risky</th>
+			<th style="width:11%;">Extremely risky</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Admitting that your tastes are different from those of a friend.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Going camping in the wilderness.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Betting a day's income at the horse races.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Investing 10% of your annual income in a moderate growth mutual fund.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Drinking heavily at a social function.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Taking some questionable deductions on your income tax return.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Disagreeing with an authority figure on a major issue.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Betting a day's income at a high-stake poker game.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Having an affair with a married man/woman.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Passing off somebody else’s work as your own.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Going down a ski run that is beyond your ability.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Investing 5% of your annual income in a very speculative stock.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Going whitewater rafting at high water in the spring.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Betting a day’s income on the outcome of a sporting event.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Engaging in unprotected sex.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Revealing a friend’s secret to someone else.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Driving a car without wearing a seat belt.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Investing 10% of your annual income in a new business venture.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Taking a skydiving class.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Riding a motorcycle without a helmet.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Choosing a career that you truly enjoy over a more secure one.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Speaking your mind about an unpopular issue in a meeting at work.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Sunbathing without sunscreen.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Bungee jumping off a tall bridge.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Piloting a small plane.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Walking home alone at night in an unsafe area of town.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Moving to a city far away from your extended family.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Starting a new career in your mid-thirties.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Leaving your young children alone at home while running an errand.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Not returning a wallet you found that contains $200.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+    </div>
+
+                                            <div class="survey-group ">
+    <h2>Other questions</h2>
+    <div class="group-desc">
+        
+    </div>
+                    <div id="question" class="list-radio mandatory question-wrapper">
+    <div class="q-text">
+        <h3> For how many years have you been regularly using the internet?
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose <strong>only one</strong> of the following:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<ul class="list-print-answers list-unstyled colstyle-ul">
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			less than a year
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			less than 2 years
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			less than 3 years
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			less than 4 years
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			less than 5 years
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			less than 6 years
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			less than 7 years
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			more than 7 years
+	</li>
+</ul>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="list-radio mandatory question-wrapper">
+    <div class="q-text">
+        <h3> Some websites ask for you to register with the site by 
+providing personal information. When asked for such information, what 
+percentage of the time do you falsify the information?
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose <strong>only one</strong> of the following:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<ul class="list-print-answers list-unstyled colstyle-ul">
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			I have never falsified information
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			under 25% of the time
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			26%-50% of the time
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			51%-75% of the time
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			over 75% of the time
+	</li>
+</ul>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="list-radio mandatory question-wrapper">
+    <div class="q-text">
+        <h3> How frequently have you personally been the victim of what you felt was an improper invasion of privacy?
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose <strong>only one</strong> of the following:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<ul class="list-print-answers list-unstyled colstyle-ul">
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			Infrequently
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			Rarely 
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			Sometimes 
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			A moderate amount 
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			Frequently
+	</li>
+</ul>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="array-flexible-row mandatory question-wrapper">
+    <div class="q-text">
+        <h3> How much have you heard or read during the last year about 
+the use and potential misuse of the information collected from the 
+Internet?
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:0%"><span></span></td>
+			<th style="width:14%;">1- Not at all</th>
+			<th style="width:14%;">2</th>
+			<th style="width:14%;">3</th>
+			<th style="width:14%;">4</th>
+			<th style="width:14%;">5</th>
+			<th style="width:14%;">6</th>
+			<th style="width:14%;">7- Very much</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext"></th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+    </div>
+
+                                            <div class="survey-group ">
+    <h2>Transport</h2>
+    <div class="group-desc">
+        
+    </div>
+                    <div id="question" class="array-flexible-row mandatory question-wrapper">
+    <div class="q-text">
+        <h3> How frequently do you use any of the following apps?
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:15%;">never</th>
+			<th style="width:15%;">rarely</th>
+			<th style="width:15%;">monthly</th>
+			<th style="width:15%;">weekly</th>
+			<th style="width:15%;">daily</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Google maps</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Apple maps</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Other maps applications</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Strava</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Endomondo</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">MyFitnessPal</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Runtastic</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Nike+</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="array-flexible-row mandatory question-wrapper">
+    <div class="q-text">
+        <h3> To what extent do you agree or disagree with each of the following statements?
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:11%;">Strongly disagree</th>
+			<th style="width:11%;">Disagree</th>
+			<th style="width:11%;">Somewhat disagree</th>
+			<th style="width:11%;">Neither agree or disagree</th>
+			<th style="width:11%;">Somewhat agree</th>
+			<th style="width:11%;">Agree</th>
+			<th style="width:11%;">Strongly agree</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">I am not concerned when apps request to have access to my location data.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I mind that I have to provide my location data to so many phone apps.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Sharing my location on my phone applications has a number of benefits.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I feel positive about the increased connectedness of transport systems.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I think that moving away from privately owned cars and towards mobility as a service is a cause for concern.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I feel positive about the introduction of new types of transport services (e.g. autonomous shuttles).</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">I am concerned about the increased use of internet connected technology in private vehicles.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">I am not concerned when apps retain my location data in order to personalise my experience.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">It is likely that transport service providers know my location at any time.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">All things considered, I think participating in the transport sharing economy is a good thing.</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="array-flexible-row mandatory question-wrapper">
+    <div class="q-text">
+        <h3> How often do you use the following types of transport?
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:33%"><span></span></td>
+			<th style="width:11%;">Every day</th>
+			<th style="width:11%;">4-6 days a week</th>
+			<th style="width:11%;">1-3 days a week</th>
+			<th style="width:11%;">Once every two weeks</th>
+			<th style="width:11%;">Once a month</th>
+			<th style="width:11%;">Less than once a month</th>
+			<th style="width:11%;">Never</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Car</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Bus</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Train/Tube</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Taxi</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Cycling</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Walking</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Motorcycling</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-even">
+			<th class="answertext">Ride sharing (e.g. Uber)</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+		<tr class="ls-odd">
+			<th class="answertext">Bike sharing (e.g. ofo, Santander cycles)</th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="list-radio mandatory question-wrapper">
+    <div class="q-text">
+        <h3> <p>Currently what is your primary mode of transport?</p>
+
+<p>Note: 'Primary' is your default mode of transport. I.e. what you use 
+on a regular basis for your travels. E.g. You own a car, but travel to 
+work everyday using public transport. Public transport is therefore your
+ primary mode.</p>
+
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose <strong>only one</strong> of the following:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<ul class="list-print-answers list-unstyled colstyle-ul">
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			Bicycle
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			Car
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			Motorcycle/moped
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			Van (under 3.5 tonnes)
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			Van or lorry (over 3.5 tonnes)
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			Walking
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			Trains
+	</li>
+		<li class="">
+		<div class="input-radio"><span></span></div>
+			Bus
+	</li>
+	<li class=" other other-item">
+<div class="input-radio"><span></span></div> Other
+			<div class="form-control print-control input-other" style="width:30em;height:3em"><span></span></div>
+	</li>
+</ul>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="text-long mandatory question-wrapper">
+    <div class="q-text">
+        <h3> In your&nbsp;opinion how will the increased cyber connectedness of the transport system impact crime?
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please write your answer here:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        <div class="form-control print-control input-textarea" style="height:11em;" title="&lt;div class=&quot;tip-help&quot;&gt;Please write your answer here:&lt;/div&gt;"><span></span></div>
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+    </div>
+
+                                            <div class="survey-group ">
+    <h2>Final Questions</h2>
+    <div class="group-desc">
+        
+    </div>
+                    <div id="question" class="array-flexible-row mandatory question-wrapper">
+    <div class="q-text">
+        <h3> <p>Did you answer the questions in this survey truthfully?</p>
+
+<p>(We will not deduct payment if you did not, we would just like an honest response.)</p>
+
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:30%"><span></span></td>
+			<th style="width:6%;">&lt;&lt;&lt;</th>
+			<th style="width:6%;">&lt;&lt;</th>
+			<th style="width:6%;">&lt;</th>
+			<th style="width:6%;">|</th>
+			<th style="width:6%;">&gt;</th>
+			<th style="width:6%;">&gt;&gt;</th>
+			<th style="width:6%;">&gt;&gt;&gt;</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Fabricated </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Truthful</th>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+                    <div id="question" class="array-flexible-row mandatory question-wrapper">
+    <div class="q-text">
+        <h3> <p>Do you think your answers describe you accurately?</p>
+
+            <span class="mandatory">*</span>
+        </h3>
+        <p class="q-scenaria"></p>
+        <p class="q-type-help"></p><div class="tip-help">Please choose the appropriate response for each item:</div><p></p>
+        <p class="q-man-message"></p>
+        <p class="q-validation"></p>
+        <p class="q-fvalidation"></p>
+    </div>
+    <div class="q-answer">
+        
+<table class="table-print-answers table table-bordered">
+	<thead>
+		<tr>
+			<td style="width:30%"><span></span></td>
+			<th style="width:6%;">&lt;&lt;&lt;</th>
+			<th style="width:6%;">&lt;&lt;</th>
+			<th style="width:6%;">&lt;</th>
+			<th style="width:6%;">|</th>
+			<th style="width:6%;">&gt;</th>
+			<th style="width:6%;">&gt;&gt;</th>
+			<th style="width:6%;">&gt;&gt;&gt;</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="ls-odd">
+			<th class="answertext">Certain </th>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<td><div class="input-radio"><span></span></div></td>
+			<th class="answertextright">Uncertain</th>
+		</tr>
+	</tbody>
+</table>
+
+    </div>
+    <div class="q-help">
+        
+    </div>
+</div>
+
+    </div>
+
+            
+            
+            
+            <p class="submit-by">
+                </p><p><span style="font-size:16px;"><strong>Thank you for participating!&nbsp;</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<br>
+                <br>
+                <br>
+                Submit your survey.<br>
+                Thank you for completing this survey.<br>
+            <p></p>
+
+        </div>
+    <script type="text/javascript">
+/*<![CDATA[*/
+
+            try{ 
+                triggerEmClassChange(); 
+            } catch(e) {
+                console.ls.warn('triggerEmClassChange could not be run. Is survey.js correctly loaded?');
+            }
+
+triggerEmRelevance();
+jQuery(document).off('pjax:scriptcomplete.mainBottom').on('ready pjax:scriptcomplete.mainBottom', function() {
+updateMandatoryErrorClass();
+});
+/*]]>*/
+</script>
+
+
+</body></html>
